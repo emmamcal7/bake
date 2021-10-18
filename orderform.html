@@ -2,10 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css" type="">
     <title>Order/Enquire</title>
   </head>
   <body>
-    <a href="index.html">Home</a>
+    <div id="menucase">
+      <div id="stylefour">
+        <ul>
+          <li><a href ="index.html">Home</a></li>
+          <li><a href="prices.html">Price List</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="orderform.html" class="current">Order/Enquire</a></li>
+        </ul>
+      </div>
+    </div>
     <h1>Order/Enquire</h1>
 
     <h3>Please fill out the form below to get in touch</h3>
@@ -25,9 +36,13 @@
       <textarea name="yourEnquiry" rows="4" cols="40"></textarea> <br>
 <br>
 
-      <label>Are you happy for us to contact you about this enquiry</label>
+      <label>Are you happy for us to contact you about this enquiry on the given email address?</label>
       <input type="checkbox" name="confirmContact" value=""> <br>
 <br>
+
+<p>We aim to respond to enquiries within 48 hours. If you haven't heard back from us please ensure
+you check your junk/spam email folders. For urgent enquiries please call either of the phone numbers
+on the contact us page during our opening hours.</p>
 
       <br>
       <input type="submit" name="submitEnquiry" value="Submit">
