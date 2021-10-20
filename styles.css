@@ -1,4 +1,5 @@
 h1 {
+	-webkit-appearance: none;
 	font-family:Verdana, Arial, Helvetica, sans-serif;
 	font-size:28px;
 	color: #d30080;
@@ -8,6 +9,7 @@ h1 {
 	}
 
 h2{
+	-webkit-appearance: none;
 		font-family:Verdana, Arial, Helvetica, sans-serif;
 		font-size:20px;
 		color: #d30080;
@@ -17,6 +19,7 @@ h2{
 }
 
 h3{
+	-webkit-appearance: none;
 		font-family:Verdana, Arial, Helvetica, sans-serif;
 		font-size:16px;
 		color: #d30080;
@@ -26,6 +29,7 @@ h3{
 }
 
 hr {
+	-webkit-appearance: none;
 	border:none;
 	border-top:1px solid #CCCCCC;
 	height:1px;
@@ -33,6 +37,7 @@ hr {
 	}
 
 #stylefour{
+	-webkit-appearance: none;
 	position:relative;
 	display:block;
 	height:45px;
@@ -46,6 +51,7 @@ hr {
 	}
 
 #stylefour ul{
+	-webkit-appearance: none;
 	margin:0;
 	padding:0;
 	list-style-type:none;
@@ -53,12 +59,14 @@ hr {
 	}
 
 #stylefour ul li{
+	-webkit-appearance: none;
 	display:block;
 	float:left;
 	margin:0;
 	}
 
 #stylefour ul li a{
+	-webkit-appearance: none;
 	display:block;
 	float: left;
 	color:#666;
@@ -69,12 +77,14 @@ hr {
 	}
 
 #stylefour ul li a:hover,#stylefour ul li a.current{
+	-webkit-appearance: none;
 	color:#d30080;
 	background:#a9a9a9 url(bgON.gif) no-repeat top right;
 	}
 
 
 	body {
+		-webkit-appearance: none;
 		background-color: #fe81cc;
 		-webkit-appearance: none;
 	-moz-appearance: none;
@@ -82,12 +92,14 @@ hr {
 	}
 
 	input[type=text], select, textarea {
+		-webkit-appearance: none;
 	  padding: 12px;
 	  border: 1px solid #808080;
 	  border-radius: 4px;
 	  resize: vertical;
 	}
 	input[type=email], select, textarea {
+		-webkit-appearance: none;
 		padding: 12px;
 		border: 1px solid #808080;
 		border-radius: 4px;
@@ -95,11 +107,13 @@ hr {
 	}
 
 	label {
+		-webkit-appearance: none;
 	  padding: 12px 12px 12px 0;
 	  display: inline-block;
 	}
 
 	input[type=submit] {
+		-webkit-appearance: none;
 	  background-color: #4CAF50;
 	  color: white;
 	  padding: 12px 20px;
@@ -110,6 +124,7 @@ hr {
 	}
 
 	input[type=submit]:hover {
+		-webkit-appearance: none;
 	  background-color: #45a049;
 	}
 
