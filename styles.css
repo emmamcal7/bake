@@ -6,26 +6,26 @@ h1 {
 	font-weight:bold;
 	margin:1;
 	padding:1;
-	}
+}
 
 h2{
 	-webkit-appearance: none;
-		font-family:Verdana, Arial, Helvetica, sans-serif;
-		font-size:20px;
-		color: #d30080;
-		font-weight:bold;
-		margin:1;
-		padding:1;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color: #d30080;
+	font-weight:bold;
+	margin:1;
+	padding:1;
 }
 
 h3{
 	-webkit-appearance: none;
-		font-family:Verdana, Arial, Helvetica, sans-serif;
-		font-size:16px;
-		color: #d30080;
-		font-weight:bold;
-		margin:1;
-		padding:1;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color: #d30080;
+	font-weight:bold;
+	margin:1;
+	padding:1;
 }
 
 hr {
@@ -34,7 +34,7 @@ hr {
 	border-top:1px solid #CCCCCC;
 	height:1px;
 	margin-bottom:25px;
-	}
+}
 
 #stylefour{
 	-webkit-appearance: none;
@@ -48,7 +48,7 @@ hr {
 	border-top:4px solid #d30080;
 	border-bottom: 4px solid #d30080;
 
-	}
+}
 
 #stylefour ul{
 	-webkit-appearance: none;
@@ -56,14 +56,14 @@ hr {
 	padding:0;
 	list-style-type:none;
 	width:auto;
-	}
+}
 
 #stylefour ul li{
 	-webkit-appearance: none;
 	display:block;
 	float:left;
 	margin:0;
-	}
+}
 
 #stylefour ul li a{
 	-webkit-appearance: none;
@@ -74,61 +74,61 @@ hr {
 	padding:11px 30px 11px 30px;
 	height:23px;
 	background:#FFDBE9 url(bgDIVIDER.gif) no-repeat top right;
-	}
+}
 
 #stylefour ul li a:hover,#stylefour ul li a.current{
 	-webkit-appearance: none;
 	color:#d30080;
 	background:#a9a9a9 url(bgON.gif) no-repeat top right;
-	}
+}
 
 
-	body {
-		-webkit-appearance: none;
-		background-color: #fe81cc;
-		-webkit-appearance: none;
+body {
+	-webkit-appearance: none;
+	background-color: #fe81cc;
+	-webkit-appearance: none;
 	-moz-appearance: none;
 	appearance: none;
-	}
+}
 
-	input[type=text], select, textarea {
-		-webkit-appearance: none;
-	  padding: 12px;
-	  border: 1px solid #808080;
-	  border-radius: 4px;
-	  resize: vertical;
-	}
-	input[type=email], select, textarea {
-		-webkit-appearance: none;
-		padding: 12px;
-		border: 1px solid #808080;
-		border-radius: 4px;
-		resize: vertical;
-	}
+input[type=text], select, textarea {
+	-webkit-appearance: none;
+	padding: 12px;
+	border: 1px solid #808080;
+	border-radius: 4px;
+	resize: vertical;
+}
+input[type=email], select, textarea {
+	-webkit-appearance: none;
+	padding: 12px;
+	border: 1px solid #808080;
+	border-radius: 4px;
+	resize: vertical;
+}
 
-	label {
-		-webkit-appearance: none;
-	  padding: 12px 12px 12px 0;
-	  display: inline-block;
-	}
+label {
+	-webkit-appearance: none;
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
 
-	input[type=submit] {
-		-webkit-appearance: none;
-	  background-color: #4CAF50;
-	  color: white;
-	  padding: 12px 20px;
-	  border: none;
-	  border-radius: 4px;
-	  cursor: pointer;
-	  float: right;
-	}
+input[type=submit] {
+	-webkit-appearance: none;
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
 
 .submit {
 	-webkit-appearance: none;
 }
-	input[type=submit]:hover {
-		-webkit-appearance: none;
-	  background-color: #45a049;
-	}
+input[type=submit]:hover {
+	-webkit-appearance: none;
+	background-color: #45a049;
+}
 
 }
