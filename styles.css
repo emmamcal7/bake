@@ -1,10 +1,29 @@
 h1 {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size:16px;
+	font-size:28px;
+	color: #d30080;
 	font-weight:bold;
-	margin:0;
-	padding:0;
+	margin:1;
+	padding:1;
 	}
+
+h2{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:20px;
+		color: #d30080;
+		font-weight:bold;
+		margin:1;
+		padding:1;
+}
+
+h3{
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:16px;
+		color: #d30080;
+		font-weight:bold;
+		margin:1;
+		padding:1;
+}
 
 hr {
 	border:none;
@@ -16,12 +35,14 @@ hr {
 #stylefour{
 	position:relative;
 	display:block;
-	height:39px;
-	font-size:11px;
+	height:45px;
+	font-size:14px;
 	font-weight:bold;
 	background:transparent url(bgOFF.gif) repeat-x top left;
 	font-family:Arial,Verdana,Helvitica,sans-serif;
-	border-top:4px solid #B30000;
+	border-top:4px solid #d30080;
+	border-bottom: 4px solid #d30080;
+
 	}
 
 #stylefour ul{
@@ -39,15 +60,57 @@ hr {
 
 #stylefour ul li a{
 	display:block;
-	float:left;
+	float: left;
 	color:#666;
 	text-decoration:none;
-	padding:11px 20px 0 20px;
+	padding:11px 30px 11px 30px;
 	height:23px;
-	background:transparent url(bgDIVIDER.gif) no-repeat top right;
+	background:#FFDBE9 url(bgDIVIDER.gif) no-repeat top right;
 	}
 
 #stylefour ul li a:hover,#stylefour ul li a.current{
-	color:#B30000;
-	background:#fff url(bgON.gif) no-repeat top right;
+	color:#d30080;
+	background:#a9a9a9 url(bgON.gif) no-repeat top right;
 	}
+
+
+	body {
+		background-color: #fe81cc;
+		background-position: center; /* Center the image */
+		background-repeat: no-repeat; /* Do not repeat the image */
+		background-size: cover; /* Resize the background image to cover the entire container */
+	}
+
+	input[type=text], select, textarea {
+	  padding: 12px;
+	  border: 1px solid #808080;
+	  border-radius: 4px;
+	  resize: vertical;
+	}
+	input[type=email], select, textarea {
+		padding: 12px;
+		border: 1px solid #808080;
+		border-radius: 4px;
+		resize: vertical;
+	}
+
+	label {
+	  padding: 12px 12px 12px 0;
+	  display: inline-block;
+	}
+
+	input[type=submit] {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 12px 20px;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	  float: right;
+	}
+
+	input[type=submit]:hover {
+	  background-color: #45a049;
+	}
+
+}
