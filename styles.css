@@ -76,9 +76,9 @@ hr {
 
 	body {
 		background-color: #fe81cc;
-		background-position: center; /* Center the image */
-		background-repeat: no-repeat; /* Do not repeat the image */
-		background-size: cover; /* Resize the background image to cover the entire container */
+		-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
 	}
 
 	input[type=text], select, textarea {
